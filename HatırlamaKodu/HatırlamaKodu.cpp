@@ -3,19 +3,23 @@
 
 #include <stdio.h>
 #include <string.h>
-
+/*
 void arttirma(int i) {
 	i += 3;
 	printf("%d",i);
 }
+*/
 
-void swap(int* i, int* j) {
+/*void swap(int *i, int *j) {
 	// i=5, j=6
-	int i = 5, j = 6;
 	int temp = *i;
 	*i = *j;
 	*j = temp;
+
+	printf("Son degerler: %d %d\n", *i, *j);
 }
+*/
+
 
 int main()
 {
@@ -97,7 +101,16 @@ int main()
 	}
 	*/
 
+	/*
+	int a = 5;
+	int b = 6;
+	
+	swap(&a,&b);
 
+	printf("ilk degerler:%d %d\n", a, b);
+*/
+
+	
 
 
 
